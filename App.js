@@ -68,7 +68,7 @@ const App = () => {
       Alert.alert("Error", "Failed to share the list.");
     }
   };
-
+/* Done by Nomaan gagan
   const renderItem = ({ item }) => (
     <View style={styles.itemContainer}>
       <TouchableOpacity
