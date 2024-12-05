@@ -1,3 +1,4 @@
+/*done by Nikunj*/
 import React, { useState } from "react";
 import { StyleSheet, View, Text, FlatList, TouchableOpacity, TextInput, Alert, Share } from "react-native";
 import { AntDesign, MaterialIcons } from "@expo/vector-icons";
@@ -14,7 +15,8 @@ const App = () => {
   const [isModalVisible, setModalVisible] = useState(false);
   const [isDatePickerVisible, setDatePickerVisible] = useState(false);
   const [selectedDate, setSelectedDate] = useState(new Date());
-
+  /*done by Nikunj*/
+  
   const addCategory = (newCategory) => {
     if (newCategory.trim() === "" || customCategories.includes(newCategory)) {
       Alert.alert("Error", "Please enter a unique category.");
