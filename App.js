@@ -55,7 +55,7 @@ const App = () => {
     const updatedList = shoppingList.filter((item) => item.id !== id);
     setShoppingList(updatedList);
   };
-
+/*Done By Ansh*/
   const shareList = async () => {
     const listString = shoppingList
       .map((item) => `${item.name} (${item.category})`)
@@ -90,7 +90,7 @@ const App = () => {
         <MaterialIcons name="delete" size={24} color="#F44336" />
       </TouchableOpacity>
     </View>
-  );
+  ); 
 
 // done by sahil
   return (
