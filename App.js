@@ -183,7 +183,7 @@ const App = () => {
 };
 
 export default App;
-
+//stylesheet done by aman
 const styles = StyleSheet.create({
   container: {
     flex: 1,
